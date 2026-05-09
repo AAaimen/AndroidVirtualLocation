@@ -30,7 +30,7 @@ DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
 # Use the maximum available from the JVM to allocate memory based on the system's capabilities
 # This is useful for CI environments where memory is limited
 if [ "$CI" ] ; then
-    DEFAULT_JVM_OPTS="$DEFAULT_JVM_OPTS \"-Xmx1g\" \"-Xms256m\""
+    DEFAULT_JVM_OPTS="$DEFAULT_JVM_OPTS -Xmx1g -Xms256m"
 fi
 
 APP_NAME=gradle
