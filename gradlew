@@ -25,7 +25,7 @@
 APP_HOME=$( cd "${APP_PATH:-./}." && cd "${APP_NAME%/*}" && pwd -P ) || exit
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
 
 # Use the maximum available from the JVM to allocate memory based on the system's capabilities
 # This is useful for CI environments where memory is limited
