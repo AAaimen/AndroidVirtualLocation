@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace "com.example.androidvirtuallocation"
     compileSdk 34
 
     defaultConfig {
